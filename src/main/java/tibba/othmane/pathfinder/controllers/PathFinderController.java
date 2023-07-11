@@ -38,4 +38,10 @@ public class PathFinderController {
     }
 
 
+    @GetMapping("test")
+    public String test(){
+        return  "test";
+    }
+
+
 }
